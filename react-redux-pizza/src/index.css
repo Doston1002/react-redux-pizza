@@ -1,0 +1,154 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+/* reset default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base style */
+
+body {
+  background: #fcfcfc;
+  font-family: "Istok Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1,
+h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #212245;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0px;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+.lds-spinner {
+
+  display: inline-block;
+  margin: 200px;
+  align-items: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.lds-spinner div {
+
+  margin: 150px 500px;
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+
+  border-radius: 20%;
+  background: rgb(50, 63, 238);
+}
+
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
