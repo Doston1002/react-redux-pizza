@@ -25,5 +25,7 @@
   .sorting__widget select {
     width: 100% !important;
     font-size: 0.8rem;
+    /* m-0 */
+    /* p-0 */
   }
 }
