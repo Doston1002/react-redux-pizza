@@ -294,6 +294,10 @@ const Home = () => {
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Qui, earum.
                     </p>
+                    <p className="choose__us-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Qui, earum.
+                    </p>
                   </ListGroupItem>
                 </ListGroup>
               </div>
